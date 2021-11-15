@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in $(ls ./JocDeProves/*.txt); do
+	echo Tractant fitxer $i
+	./main < $i
+	echo ==================
+done
